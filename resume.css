@@ -1,0 +1,140 @@
+body{
+    font-family: 'Proxima-Nova', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    background-color: #dfe3ee;
+    background-image: url(spikes.png);
+    background-repeat: repeat;
+    margin: 0px;
+}
+#div1{
+	background-color: white;
+	margin: 0px;
+	box-shadow: 0px 5px 5px grey;
+}
+.header{
+	text-align: center;
+	border-style: 
+}
+#title{
+	font: bold 6vw arial, sans-serif;
+	margin: 0px;
+	color: #204060
+}
+#subtitle{
+	font: bold 2vw arial, sans-serif;
+	margin: 0px;
+	color: #204060	
+}
+#navbar{
+	border-style: double;
+	padding: 0px;
+    border-left:none;
+    border-right:none;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: #204060;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding-right: 30px;
+}
+
+.container{
+	text-align: center;
+}
+.list{
+	border-bottom: none;
+}
+.list1{
+	text-align: center;
+}
+a:hover{
+	background-color: #c6d9ec;
+	border-radius: 20px;
+	text-align: center;
+}
+.button{
+	padding:10px 20px;
+	border: none;
+}
+
+.button:hover{
+	background-color: #c6d9ec;
+	border-radius: 10px;
+	text-align: center;
+}
+.headline{
+	margin: 0;
+    width: 100%;
+    font-weight: 700;
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    border-bottom: none;
+}
+
+.landing-wide .headline{
+	background-color: #303f62;
+    margin-bottom: 1.5em;
+    padding: .75em 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+.landing-wide .content{
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 40px;
+	width: 80%;
+	margin: auto;
+}
+
+.landing .content {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .post_box .headline-area {
+    margin: -25px -50px 0;
+    background-color: #334759;
+    background-color: #303f62;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+div{
+	display: block;
+}
+
+.content .post_box {
+    margin-bottom: 25px;
+    padding: 25px 50px 40px;
+    border-radius: 8px;
+    border: 1px solid #334759;
+    border: 1px solid #303f62;
+    background-color: #fff;
+    box-shadow: 7px 7px 7px #888888;
+}
+
+
